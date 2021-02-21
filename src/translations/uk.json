@@ -106,7 +106,7 @@
 		"emptyWallet": "У цьому гаманці поки немає коштів.",
 		"waitSync": "Будь ласка, зачекайте гаманець оновлює дані",
 		"beReallyPatient": "Початкова установка може зайняти деякий час...",
-		"getCoinAddress": "Отримати KRB"
+		"getCoinAddress": "Отримати DIAM"
 	  },
 	  "txDetails":{
 		"title":"Деталі транзакції",
@@ -166,8 +166,8 @@
 		}
 	  },
 	  "disclaimerBlock":{
-		"title":"Ризики використання KarboWallet",
-		"content":"KarboWallet це веб-інтерфейс. Він допомагає вам використовувати Карбо без необхідності тримати повний вузол мережі Карбо. <br/>Ми рекомендуємо ставитися до KarboWallet з усією серйозністю, як до вашого гаманця."
+		"title":"Ризики використання DiamoneumWallet",
+		"content":"DiamoneumWallet це веб-інтерфейс. Він допомагає вам використовувати Карбо без необхідності тримати повний вузол мережі Карбо. <br/>Ми рекомендуємо ставитися до DiamoneumWallet з усією серйозністю, як до вашого гаманця."
 	  }
 	},
 	"donatePage":{
@@ -188,7 +188,7 @@
 	  "getInTouchBlock":{
 		"title":"Зв'яжіться з нами!",
 		"content":"Є ідеї або побажання щодо поліпшення гаманця? Напишіть нам!",
-		"discord":"Канал Karbo в Discord"
+		"discord":"Канал Diamoneum в Discord"
 	  }
 	},
 	"networkPage":{
@@ -203,7 +203,7 @@
 	  }
 	},
 	"sendPage":{
-	  "title":"Надіслати KRB",
+	  "title":"Надіслати DIAM",
 	  "sendBlock":{
 		"address":{
 		  "label":"Адреса одержувача",
@@ -271,7 +271,7 @@
 	  }
 	},
 	"receivePage":{
-	  "title":"Отримати KRB",
+	  "title":"Отримати DIAM",
 	  "receiveBlock":{
 		"address":{
 		  "title":"Ваша адреса для отримання:",
@@ -299,7 +299,7 @@
 	},
 	"miningPage":{
 	  "title":"Інформація про майнінг",
-	  "subtitle":"Підтримайте мережу майнінгом і отримайте в нагороду KRB",
+	  "subtitle":"Підтримайте мережу майнінгом і отримайте в нагороду DIAM",
 	  "parameterBlock":{
 		"title":"Параметри",
 		"labelDestinationAddress":"Гаманець на який майнити",
@@ -313,7 +313,7 @@
 		"hashrate":"Хешрейт",
 		"maxHashrate":"Макс. Хешрейт",
 		"dedicatedHardware":"Майнінг допомагає в децентралізації мережі і дозволяє вам заробити карбованці.",
-		"miningHandledBy":"Майнінг проходить на пулі pool.karbowanec.com"
+		"miningHandledBy":"Майнінг проходить на пулі pool.Diamoneumwanec.com"
 	  }
 	},
 	"settingsPage":{

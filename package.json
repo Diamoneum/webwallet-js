@@ -1,7 +1,7 @@
 {
-  "name": "karbowebwallet",
+  "name": "Diamoneum Wallet",
   "version": "1.0.0",
-  "description": "Fully client side web wallet for Karbo",
+  "description": "Fully client side web wallet for Diamoneum",
   "main": "index.js",
   "dependencies": {
     "typescript": "^2.9.2",
@@ -10,12 +10,12 @@
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aivve/karbo-webwallet-js.git"
+    "url": "git+https://github.com/Diamoneum/webwallet-js.git"
   },
   "author": "Gnock",
   "license": "BSD-3",
   "bugs": {
-    "url": "https://github.com/gnock/masari-webwallet/issues"
+    "url": "https://github.com/Diamoneum/webwallet-js/issues"
   },
-  "homepage": "https://github.com/aivve/karbo-webwallet-js#readme"
+  "homepage": "https://github.com/Diamoneum/webwallet-js#readme"
 }

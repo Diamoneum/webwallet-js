@@ -11,18 +11,13 @@
 // License for more details.
 //
 
-include 'config/config.php';
+header("Access-Control-Allow-Origin: *");
 
-$curl = curl_init();
+ini_set('display_errors', 0);
+ini_set('display_startup_errors', 0);
+error_reporting(0);
 
-$body = json_encode(array());
-curl_setopt_array($curl, array(CURLOPT_RETURNTRANSFER => 1, CURLOPT_URL => 'http://'.$daemonAddress.':'.$rpcPort.'/getheight'));
-$resp = curl_exec($curl);
-curl_close($curl);
-
-$array = json_decode($resp, true);
-
-if($array === null)
-	http_response_code(400);
-else
-	echo $array['height'];
+$cacheLocation = 'cache';
+$daemonAddress = '127.0.0.1';
+$rpcPort = 8197;
+$coinSymbol = 'QWC';
