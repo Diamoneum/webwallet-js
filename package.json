@@ -1,5 +1,5 @@
 {
-  "name": "Diamoneum Wallet",
+  "name": "DiamoneumWallet",
   "version": "1.0.0",
   "description": "Fully client side web wallet for Diamoneum",
   "main": "index.js",
