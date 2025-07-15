@@ -1,6 +1,6 @@
 let global : any = typeof window !== 'undefined' ? window : self;
 global.config = {
-	apiUrl:typeof window !== 'undefined' && window.location ? window.location.href.substr(0,window.location.href.lastIndexOf('/')+1)+'api/' : 'https://wallet.diamoneum.xyz/api/',
+	apiUrl:typeof window !== 'undefined' && window.location ? window.location.href.substr(0,window.location.href.lastIndexOf('/')+1)+'api/' : 'https://wallet.diamoneum.com/api/',
 	mainnetExplorerUrl: "http://explorer.diamoneum.com/",
 	mainnetExplorerUrlHash: "http://explorer.diamoneum.com/?hash={ID}#blockchain_transaction",
 	mainnetExplorerUrlBlock: "http://explorer.diamoneum.com/?hash={ID}#blockchain_block",
