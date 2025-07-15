@@ -1,12 +1,12 @@
 let global : any = typeof window !== 'undefined' ? window : self;
 global.config = {
 	apiUrl:typeof window !== 'undefined' && window.location ? window.location.href.substr(0,window.location.href.lastIndexOf('/')+1)+'api/' : 'https://wallet.diamoneum.xyz/api/',
-	mainnetExplorerUrl: "http://explorer.diamoneum.xyz/",
-	mainnetExplorerUrlHash: "http://explorer.diamoneum.xyz/?hash={ID}#blockchain_transaction",
-	mainnetExplorerUrlBlock: "http://explorer.diamoneum.xyz/?hash={ID}#blockchain_block",
-	testnetExplorerUrl: "http://testnet.diamoneum.xyz/",
-	testnetExplorerUrlHash: "http://testnet.diamoneum.xyz/?hash={ID}#blockchain_transaction",
-	testnetExplorerUrlBlock: "http://testnet.diamoneum.xyz/?hash={ID}#blockchain_block",
+	mainnetExplorerUrl: "http://explorer.diamoneum.com/",
+	mainnetExplorerUrlHash: "http://explorer.diamoneum.com/?hash={ID}#blockchain_transaction",
+	mainnetExplorerUrlBlock: "http://explorer.diamoneum.com/?hash={ID}#blockchain_block",
+	testnetExplorerUrl: "http://testnet.diamoneum.com/",
+	testnetExplorerUrlHash: "http://testnet.diamoneum.com/?hash={ID}#blockchain_transaction",
+	testnetExplorerUrlBlock: "http://testnet.diamoneum.com/?hash={ID}#blockchain_block",
 	testnet: false,
     coinUnitPlaces: 8,
     coinDisplayUnitPlaces: 8,
